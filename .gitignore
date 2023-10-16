@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+
+/.pnp
+.pnp.js
+.next
+# testing
+/coverage
+/server/node_modules
+
+# production
+/build
+/node_modules
+/server/node_modules
+/server/.git
+
+# misc
+node_modules
+staking-server.cer
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vercel
